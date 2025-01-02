@@ -77,7 +77,7 @@ window.onload = async () => {
       return; // Avoid duplicate scans
     }
     console.debug("Сканування...")
-    scanningInterval = setInterval(scanQRCode, 1000); // Scanning every second
+    scanningInterval = setInterval(scanQRCode, 200); // Scanning every second
   }
 
   // Function of creating an empty media stream (audio + video)
